@@ -1,0 +1,22 @@
+Utilaclock
+
+Utilaclock is a simple clock utility. It opens any number of clocks in separate
+windows. It can also create countdowns and timers.
+Count downs change color and start counting up after they reach zero.
+The font size can now be set for each clock.
+
+Utilaclock was developed at Puyallup Foursquare Church
+(http://myfoursquarechurch.com) to use as a clock on our campuses.
+
+Copyright (c) 2010 Puyallup Foursquare Church.
+
+License information can be found in the COPYING file.
+
+
+Binary Releases
+
+The latests binary release is available at http://jesterpm.net/utilaclock.
+The source for this project is hosted on github:
+http://github.com/jesterpm/Utilaclock
+
+If you have questions or requests, contact Jesse Morgan <jesse@jesterpm.net>.
