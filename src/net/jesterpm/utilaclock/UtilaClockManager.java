@@ -33,6 +33,11 @@ import javax.swing.JTextField;
  */
 public class UtilaClockManager extends JFrame {
   /**
+   * Utilaclock Version String
+   */
+  private static final String UTILACLOCK_VERSION = "0.5";
+
+  /**
    * Serial UID.
    */
   private static final long serialVersionUID = 8838459061020873829L;
@@ -152,7 +157,10 @@ public class UtilaClockManager extends JFrame {
     final JButton about = new JButton("About");
     about.addActionListener(new ActionListener() {
       public void actionPerformed(final ActionEvent the_event) {
-        JOptionPane.showMessageDialog(UtilaClockManager.this, "Created by Jesse Morgan <jesse@jesterpm.net>.\n Version: $Id: UtilaClockManager.java 57 2010-10-17 05:40:34Z jesse $");
+        JOptionPane.showMessageDialog(UtilaClockManager.this,
+            "Utilaclock " + UTILACLOCK_VERSION
+            + "\nCreated by Jesse Morgan <jesse@jesterpm.net>."
+            + "\nhttp://github.com/jesterpm/Utilaclock");
       }
     });
 
